@@ -1,6 +1,7 @@
 diffusers==0.27.2
 huggingface-hub==0.25.0
 transformers==4.36.2
+peft==0.13.0
 opencv-python
 safetensors
 pillow==10.2.0
@@ -9,3 +10,4 @@ torch
 peft
 gradio==3.41.2
 protobuf==3.20
+gradio==3.48.0

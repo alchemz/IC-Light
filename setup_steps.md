@@ -33,3 +33,20 @@ Fix 1. pip install huggingface-hub==0.25.0
 Reference: https://github.com/lllyasviel/IC-Light/issues/114
 
 Problem 2. AssertionError: Torch not compiled with CUDA enabled
+
+Problem 3. git@github.com: Permission denied (publickey).
+Fix 3. nano /home/ubuntu/.ssh/config
+```
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile /home/ubuntu/lily-arizona/.ssh/id_ed25519
+```
+
+Problem 4. ImportError: cannot import name 'EncoderDecoderCache' from 'transformers'
+```
+pip install peft==0.13.0
+```
+
+Problem 5. Inference error when running gradio_demo.py
+
